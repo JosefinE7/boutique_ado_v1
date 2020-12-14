@@ -22,7 +22,7 @@
         handleEnableDisable(itemId);
     })
 
-    // Increment qunatity  
+    // Increment qunatity in product_detail   
     $('.increment-qty').click(function (e) {
         e.preventDefault();
         var closestInput = $(this).closest('.input-group').find('.qty-input')[0];
@@ -32,7 +32,7 @@
         handleEnableDisable(itemId);
     });
 
-    // Decrement quantity
+    // Decrement quantityin product_detail   
     $('.decrement-qty').click(function (e) {
         e.preventDefault();
         var closestInput = $(this).closest('.input-group').find('.qty-input')[0];
